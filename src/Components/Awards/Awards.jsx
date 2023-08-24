@@ -17,7 +17,7 @@ const Awards = () => {
           {accordionItems.map((item, index) => (
             <div key={index}>
               <button className='w-full flex justify-between items-center py-4 text-left  border border-b-black/30' onClick={() => toggleAccordion(index)}>
-                <span className='my-4 text-black/70'>{item.question}</span>
+                <span className='my-4 text-black/90'>{item.question}</span>
                 <span className='text-black/70'>{activeIndex === index ? "-" : "+"}</span>
               </button>
               <AnimatePresence initial={false}>
