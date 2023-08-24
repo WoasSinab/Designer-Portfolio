@@ -1,6 +1,6 @@
 const Skills = () => {
   return (
-    <div className='flex flex-col md:flex-row mx-2 my-4 text-white justify-between gap-4 md:gap-0'>
+    <div className='flex flex-col md:flex-row mx-2 my-4 text-white/90 justify-between gap-4 md:gap-0'>
       {/* User Experience (UX) Design */}
       <div className='md:w-1/2 w-full bg-gradient-to-tr from-indigo-800 to-violet-900 rounded-2xl md:mr-4'>
         <h1 className='leading-relaxed font-semibold text-2xl md:text-3xl m-6 my-8'>
