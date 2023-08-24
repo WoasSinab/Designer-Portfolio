@@ -41,17 +41,18 @@ const Hero = () => {
       </div>
 
       {/* Main Text  */}
-      <div className='flex flex-col items-center text-center my-20 gap-6'>
-        <h1 className='sm:text-4xl md:text-4xl lg:text-5xl text-4xl font-medium'>
+      <div className='flex flex-col items-center text-center my-20 gap-6 mx-4 '>
+        <h1 className='sm:text-4xl md:text-4xl lg:text-5xl text-4xl font-medium '>
           I Create <span className='animate-text bg-gradient-to-r from-teal-500 via-purple-500 to-orange-500 bg-clip-text text-transparent font-bold'>Beautiful</span> Experiences
         </h1>
-        <p className='sm:text-xs md:text-sm lg:text-xl font-thin'>I work with people all over the world to create tailor-made Webflow experiences</p>
+        <p className='text-xs md:text-sm lg:text-lg font-thin '>I work with people all over the world to create tailor-made Webflow experiences</p>
       </div>
 
       {/* Scroll Down  */}
       <div>
-        <span className='flex justify-center animate-bounce'>
-          <img src='https://s6.uupload.ir/files/image_kpou.png' alt='' className='sm:w-[70px] sm:h-[70px] w-[50px] h-[50px]' />
+        <span className='flex md:justify-between justify-center items-center mx-6'>
+          <p className="md:block hidden">Available for freelance work</p>
+          <img src='https://s6.uupload.ir/files/image_kpou.png' alt='' className='animate-bounce sm:w-[70px] sm:h-[70px] w-[60px] h-[60px]' />
         </span>
       </div>
     </div>
