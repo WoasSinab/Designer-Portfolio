@@ -51,7 +51,10 @@ const Hero = () => {
       {/* Scroll Down  */}
       <div>
         <span className='flex md:justify-between justify-center items-center mx-6'>
+          <div className="flex felx-col"> 
+          <div className="dot w-2 h-2 rounded-full bg-orange-600 animate-pulse"></div>
           <p className="md:block hidden">Available for freelance work</p>
+          </div>
           <img src='https://s6.uupload.ir/files/image_kpou.png' alt='' className='animate-bounce sm:w-[80px] sm:h-[80px] w-[70px] h-[70px]' />
         </span>
       </div>
