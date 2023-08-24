@@ -1,6 +1,6 @@
 const Hero = () => {
   return (
-    <div className='h-screen flex flex-col justify-between'>
+    <div className='h-screen flex flex-col justify-between bg-[#1E0044] mx-2 my-4 rounded-md text-white'>
       {/* Navbar  */}
       <div className='flex flex-row justify-between sm:text-lg '>
         {/* Logo  */}
