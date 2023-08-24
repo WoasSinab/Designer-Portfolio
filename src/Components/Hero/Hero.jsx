@@ -9,7 +9,7 @@ const Hero = () => {
         </span>
         {/* Main Navbar Contents  */}
         <div className='md:flex md:flex-row hidden '>
-          <a href="#" className='m-6 flex flex-row items-center'>
+          <a href='#' className='m-6 flex flex-row items-center'>
             <h1>LINKEDIN</h1>
             <span>
               <svg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' stroke-width='1.5' stroke='currentColor' class='w-4 h-4'>
@@ -17,7 +17,7 @@ const Hero = () => {
               </svg>
             </span>
           </a>
-          <a href="#" className='m-6 flex flex-row items-center'>
+          <a href='#' className='m-6 flex flex-row items-center'>
             <h1>TWITTER</h1>
             <span>
               <svg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' stroke-width='1.5' stroke='currentColor' class='w-4 h-4'>
@@ -25,7 +25,7 @@ const Hero = () => {
               </svg>
             </span>
           </a>
-          <a href="#" className='m-6 flex flex-row items-center'>
+          <a href='#' className='m-6 flex flex-row items-center'>
             <h1>DRIBBLE</h1>
             <span>
               <svg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' stroke-width='1.5' stroke='currentColor' class='w-4 h-4'>
@@ -35,8 +35,8 @@ const Hero = () => {
           </a>
         </div>
         {/* Talk Button  */}
-        <div className='sm:text-lg text-sm'>
-          <button className='p-6 rounded-full'>LETS TALK</button>
+        <div className='sm:text-md text-sm m-4 '>
+          <button className='p-6 py-2 border border-purple-700 rounded-full shadow-md shadow-purple-600/30 hover:bg-purple-700 transition duration-300'>Let’s Talk</button>
         </div>
       </div>
 
@@ -51,9 +51,9 @@ const Hero = () => {
       {/* Scroll Down  */}
       <div>
         <span className='flex md:justify-between justify-center items-center mx-6'>
-          <div className="flex felx-col"> 
-          <div className="dot w-2 h-2 rounded-full bg-orange-600 animate-pulse hidden md:block"></div>
-          <p className="md:block hidden">Available for freelance work</p>
+          <div className='flex felx-col'>
+            <div className='dot w-2 h-2 rounded-full bg-orange-600 animate-pulse hidden md:block'></div>
+            <p className='md:block hidden'>Available for freelance work</p>
           </div>
           <img src='https://s6.uupload.ir/files/image_kpou.png' alt='' className='animate-bounce sm:w-[80px] sm:h-[80px] w-[70px] h-[70px]' />
         </span>
