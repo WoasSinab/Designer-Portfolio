@@ -1,6 +1,6 @@
 const Hero = () => {
   return (
-    <div className='h-screen flex flex-col justify-between bg-[#1E0044] mx-2 my-4 rounded-md text-white'>
+    <div className='h-screen flex flex-col justify-between bg-[#1E0044] mx-2 my-4 rounded-2xl text-white'>
       {/* Navbar  */}
       <div className='flex flex-row justify-between sm:text-lg '>
         {/* Logo  */}
@@ -51,8 +51,8 @@ const Hero = () => {
       {/* Scroll Down  */}
       <div>
         <span className='flex md:justify-between justify-center items-center mx-6'>
-          <div className='flex felx-col'>
-            <div className='dot w-2 h-2 rounded-full bg-orange-600 animate-pulse hidden md:block'></div>
+          <div className='flex'>
+            <div className='dot w-2 h-2 rounded-full bg-purple-600 animate-pulse hidden md:block'></div>
             <p className='md:block hidden'>Available for freelance work</p>
           </div>
           <img src='https://s6.uupload.ir/files/image_kpou.png' alt='' className='animate-bounce sm:w-[80px] sm:h-[80px] w-[70px] h-[70px]' />

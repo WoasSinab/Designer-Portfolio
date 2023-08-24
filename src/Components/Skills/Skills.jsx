@@ -2,7 +2,7 @@ const Skills = () => {
   return (
     <div className='flex flex-col md:flex-row mx-2 my-4 text-white justify-between gap-4 md:gap-0'>
       {/* User Experience (UX) Design */}
-      <div className='md:w-1/2 w-full bg-gradient-to-tr from-indigo-800 to-violet-900 rounded-md md:mr-4'>
+      <div className='md:w-1/2 w-full bg-gradient-to-tr from-indigo-800 to-violet-900 rounded-2xl md:mr-4'>
         <h1 className='leading-relaxed font-semibold text-2xl md:text-3xl m-6 my-8'>
           User Experience (<span className="animate-text bg-gradient-to-r from-teal-500 via-purple-500 to-orange-500 bg-clip-text text-transparent font-bold">
           UX
@@ -25,7 +25,7 @@ const Skills = () => {
       </div>
 
       {/* User Interface (UI) Design */}
-      <div className='md:w-1/2 w-full bg-gradient-to-tr from-indigo-900 to-violet-900 rounded-md md:ml-4'>
+      <div className='md:w-1/2 w-full bg-gradient-to-tr from-indigo-900 to-violet-900 rounded-2xl md:ml-4'>
         <h1 className='leading-relaxed font-semibold text-2xl md:text-3xl m-6 my-8'>
           User Interface (<span className="animate-text bg-gradient-to-r from-teal-500 via-purple-500 to-orange-500 bg-clip-text text-transparent font-bold">
           UI

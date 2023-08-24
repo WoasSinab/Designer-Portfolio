@@ -12,3 +12,17 @@ body {
   font-family: "Montserrat", sans-serif;
   font-family: "Poppins", sans-serif;
 }
+
+.bg-one{
+  background: url('https://s6.uupload.ir/files/container_4a54.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.bg-Two{
+  background: url('https://s6.uupload.ir/files/container_q63t.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
