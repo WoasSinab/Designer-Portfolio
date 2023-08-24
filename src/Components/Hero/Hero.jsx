@@ -9,30 +9,30 @@ const Hero = () => {
         </span>
         {/* Main Navbar Contents  */}
         <div className='md:flex md:flex-row hidden '>
-          <div className='m-6 flex flex-row'>
+          <a href="#" className='m-6 flex flex-row items-center'>
             <h1>LINKEDIN</h1>
             <span>
               <svg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' stroke-width='1.5' stroke='currentColor' class='w-4 h-4'>
                 <path stroke-linecap='round' stroke-linejoin='round' d='M4.5 19.5l15-15m0 0H8.25m11.25 0v11.25' />
               </svg>
             </span>
-          </div>
-          <div className='m-6 flex flex-row'>
+          </a>
+          <a href="#" className='m-6 flex flex-row items-center'>
             <h1>TWITTER</h1>
             <span>
               <svg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' stroke-width='1.5' stroke='currentColor' class='w-4 h-4'>
                 <path stroke-linecap='round' stroke-linejoin='round' d='M4.5 19.5l15-15m0 0H8.25m11.25 0v11.25' />
               </svg>
             </span>
-          </div>
-          <div className='m-6 flex flex-row'>
+          </a>
+          <a href="#" className='m-6 flex flex-row items-center'>
             <h1>DRIBBLE</h1>
             <span>
               <svg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' stroke-width='1.5' stroke='currentColor' class='w-4 h-4'>
                 <path stroke-linecap='round' stroke-linejoin='round' d='M4.5 19.5l15-15m0 0H8.25m11.25 0v11.25' />
               </svg>
             </span>
-          </div>
+          </a>
         </div>
         {/* Talk Button  */}
         <div className='sm:text-lg text-sm'>
@@ -52,7 +52,7 @@ const Hero = () => {
       <div>
         <span className='flex md:justify-between justify-center items-center mx-6'>
           <p className="md:block hidden">Available for freelance work</p>
-          <img src='https://s6.uupload.ir/files/image_kpou.png' alt='' className='animate-bounce sm:w-[70px] sm:h-[70px] w-[60px] h-[60px]' />
+          <img src='https://s6.uupload.ir/files/image_kpou.png' alt='' className='animate-bounce sm:w-[80px] sm:h-[80px] w-[70px] h-[70px]' />
         </span>
       </div>
     </div>
