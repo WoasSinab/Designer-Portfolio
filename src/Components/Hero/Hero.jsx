@@ -42,7 +42,7 @@ const Hero = () => {
 
       {/* Main Text  */}
       <div className='flex flex-col items-center text-center my-20 gap-6 mx-4 '>
-        <h1 className='sm:text-4xl md:text-4xl lg:text-5xl text-4xl font-medium '>
+        <h1 className='sm:text-6xl md:text-6xl lg:text-7xl text-5xl font-medium leading-relaxed'>
           I Create <span className='animate-text bg-gradient-to-r from-teal-500 via-purple-500 to-orange-500 bg-clip-text text-transparent font-bold'>Beautiful</span> Experiences
         </h1>
         <p className='text-xs md:text-sm lg:text-lg font-thin '>I work with people all over the world to create tailor-made Webflow experiences</p>
