@@ -52,7 +52,12 @@ const Hero = () => {
       <div>
         <span className='flex md:justify-between justify-center items-center mx-6'>
           <div className='flex'>
-            <div className='dot w-2 h-2 rounded-full bg-purple-600 animate-pulse hidden md:block'></div>
+            <div className="">
+              <span class='relative flex h-3 w-3'>
+                <span class='animate-ping absolute inline-flex h-full w-full rounded-full bg-sky-400 opacity-75'></span>
+                <span class='relative inline-flex rounded-full h-3 w-3 bg-sky-500'></span>
+              </span>
+            </div>
             <p className='md:block hidden'>Available for freelance work</p>
           </div>
           <img src='https://s6.uupload.ir/files/image_kpou.png' alt='' className='animate-bounce sm:w-[80px] sm:h-[80px] w-[70px] h-[70px]' />
